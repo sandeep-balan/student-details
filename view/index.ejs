@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">Student Registration</div>
+        <div class="content">
+            <form action="/" method="post">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">First Name</span>
+                        <input type="text" name="fname" placeholder="Enter First Name">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Last Name</span>
+                        <input type="text" name="lname" placeholder="Enter Last Name">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Email Address</span>
+                        <input type="email" name="email" placeholder="Enter Email Address">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">DOB</span>
+                        <input type="date" name="dob" placeholder="Enter Date Of Birth">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Gender</span>
+                        <select class="drop" name="gender" id="gender">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="prefernottosay">Prefer not to say</option>
+                        </select>
+                    </div>
+                    
+                    <div class="input-box">
+                        <span class="details">Address 1</span>
+                            <input type="text" name="address1" placeholder="Enter Address 1">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Address 2</span>
+                            <input type="text" name="address2" placeholder="Enter Address 2">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">City</span>
+                        <input type="text" name="city" placeholder="Enter City">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">ZipCode</span>
+                        <input type="number" name="zipcode" placeholder="Enter ZipCode">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Country</span>
+                        <input type="text" name="country" placeholder="Enter Country">
+                    </div>
+                    <div class="button">
+                        <input type="submit" value="Register">
+                    </div>
+        
+                </div>
+            </form>
+        </div>
+        
+        
+    </div>
+</body>
+
+</html>
